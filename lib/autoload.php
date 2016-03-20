@@ -15,7 +15,7 @@ class Autoload {
 	}
 
 	public function generatePath () {
-		return $path = $this->class.'.class.php';
+		return $path = dirname(__file__).'\\'.$this->class.'.class.php';
 	}
 
 	public function includeFile ($path) {

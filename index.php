@@ -1,5 +1,5 @@
 <?php
-    require "lib/autoload.php";
+    require "autoload.php";
 
     spl_autoload_register( function ($class) {
         $obj = new Autoload($class);
